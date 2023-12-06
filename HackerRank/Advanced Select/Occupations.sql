@@ -11,8 +11,8 @@ FROM (
 GROUP BY RW
 
 /*
-select 문 안에 select문이 또 있는 경우를 서브쿼리(SubQuery)라고 한다.
-서브쿼리를 만들고 꼭 이름(alias)을 붙여줘야 에러가 생기지 않는다.
+sql 안에 sql이 또 있는 경우를 서브쿼리(SubQuery)라고 한다.
+from문에서는 서브쿼리를 만들고 꼭 이름(alias)을 붙여줘야 에러가 생기지 않는다.
 
 이 문제의 경우 pivot을 구현하는 문제이다.
 doctor, professor, singer, actor의 column을 만들어주고
