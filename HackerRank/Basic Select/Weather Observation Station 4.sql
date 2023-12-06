@@ -1,0 +1,6 @@
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
+FROM STATION
+
+/*
+연산은 SELECT문에서 보통 수행된다.
+*/
